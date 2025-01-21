@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import "bootstrap/dist/css/bootstrap.min.css"
+import React from "react"
 
 function Login() {
   return (
@@ -41,7 +43,7 @@ function Login() {
                     <label class="form-label" for="input1">Password</label>
                     <input type="text" id="input1" class="form-control" />
                     <button className="btn btn-primary" style={{ marginTop: "10px" }}>Login</button>
-                    <Link className="d-flex" style={{ marginTop: "10px" }}>Register</Link>
+                    {/* <Link className="d-flex" style={{ marginTop: "10px" }}>Register</Link> */}
                   </div>
                 </div>
               </div>
